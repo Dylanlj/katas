@@ -1,0 +1,26 @@
+<h2>
+  List of People:
+</h2>
+
+<ul class='people'>
+  <li class='name'>
+    Clara
+  </li>
+  <li class='name'>
+    James
+  </li>
+  <li class='name'>
+    Sara
+  </li>
+</ul>
+<script>
+var names = [];
+var classEntries = document.getElementsByClassName("name"); 
+for (var i = 0; i < classEntries.length ; i++) {
+names.push(classEntries[i].innerHTML);
+}
+
+alert(names);
+
+</script>
+
